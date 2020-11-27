@@ -1,0 +1,237 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto', 'Open-sans';
+	background-color: #E8C15F;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.container{
+	width: 900px;
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+}
+
+.section1 {
+	width: 350px;
+	box-sizing: border-box;
+	padding: 50px 20px;
+	background-color: #f1f1f1;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	overflow-y: scroll;
+	border-radius: 10px 0 0 10px;	
+}
+
+.section1Title{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.section1Title h2{
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.section1Title img{
+	object-fit: cover;
+}
+
+.Card{
+	border: 2px solid silver;
+	width: 100%;
+	box-sizing: border-box;
+	height: 160px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.Card:hover{
+	border: 2px solid blue;
+	transition: all ease 0.5s;
+}
+
+.Card img{
+	object-fit: contain;
+	width: 80px;
+	height: 50px;
+}
+
+.Card p{
+	font-size: 20px;
+	color: #727372;
+	margin-top: 15px;
+}
+
+#choosingCard, #mastercard, #maestro{
+	display: none;
+}
+
+#choosingCard:checked + label, #mastercard:checked + label, #maestro:checked + label{
+	border: 2px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section2{
+	width: 550px;
+	box-sizing: border-box;	
+	padding: 20px;
+	background-color: #fff;
+	overflow-y: scroll;
+	border-radius: 0px 10px 10px 0;
+}
+
+.section2title{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px 20px;
+	border-bottom: 2px solid silver;
+}
+
+.costlinePhoto{
+	border: 1px solid black;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section2title h3{
+	font-weight: normal;
+	font-size: 24px;
+}
+
+.section2title h1{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.costline{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.productTitle{
+	margin-right: 70px;
+}
+
+.productTitle p{
+	color: #C7C7C7;
+	margin-top: 7px;
+}
+
+.costline h4{
+	color: blue;
+}
+
+
+.costline:hover h4{
+	color: #92D169;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
